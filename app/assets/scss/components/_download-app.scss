@@ -1,0 +1,66 @@
+.download-section {
+    background-color: $cinza-claro;
+    padding: 24px;
+    @media screen and (min-width: 768px) {
+        background-color: transparent;
+    }
+
+    
+    .translatey-download {
+        @media screen and (min-width: 768px) {
+            transform: translateY(-50%);
+        }
+        @media screen and (min-width: 1024px) {
+            transform: translateY(-80%);
+        }
+    }
+}
+.download-app {
+    background-color: $navbar;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+    color: $text-white;
+    margin: 2px 0;
+    padding: 16px;
+    transition: background-color ease 0.8s;
+
+    @media screen and (min-width: 1024px) {
+        top: -20px;
+    }
+
+    &:hover {
+        background-color: #4CAF50;
+    }
+
+    .download-link {
+        align-items: baseline;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .download-icon {
+        align-self: center;
+        color: $text-white;
+        font-size: 42px;
+    }
+
+    .download-info {
+        color: $text-white;
+        padding: 0 0 0 16px;
+
+        >.download-subtitle {
+            color: $text-white;
+            margin-bottom: 0px;
+        }
+
+        >.download-title {
+            color: $text-white;
+            font-size: 22px;
+            margin: 0;
+        }
+    }
+
+
+}

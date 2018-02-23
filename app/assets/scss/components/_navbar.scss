@@ -1,40 +1,63 @@
-.navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
-    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
-    .navbar-brand {
-        img {
-            height: 70px;
-            width: 100px;
+.navbar {
+    background-color: $navbar;
+    border: 0 solid transparent;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
 
+.navbar-default .navbar-toggle {
+    border: transparent;
+    &:hover {
+        background-color: transparent;
+        border: transparent;
+    }
+    .icon-bar {
+        background-color: #fff;
+    }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: $text-white;
+}
+
+.header {
+    background-color: $navbar;
+    margin-bottom: 24px;
+    
+    transition: all ease 0.5s;
+    @media screen and (min-width: 768px) {
+        background-color: transparent;
+    }
+    &.active {
+        height: 50px;
+        @media screen and (min-width: 768px) {
+            background-color: $navbar;
         }
     }
-    .navbar-header {
-        height: 100px;
+    .navbar-brand {
+        color: $text-white;
     }
-
-    .nav {
-        li {
-            height: 100px;
-            a {
-                transition: all .5s ease;
-                top : 20px;
-                will-change: color;
-                &:hover {
-                    color : $azul-escuro;
-                }
-            }
+    .navbar-header {
+        margin-top: 5px;
+        @media screen and (min-width: 768px) {
+            //height: 70px;
+        }
+    }
+    .navbar-collapse {
+        background-color: $navbar;
+        width: 100%;
+        border-color: transparent;
+        box-shadow: 0px 2px 4px -2px black;
+        position: absolute;
+        @media screen and (min-width: 768px) {
+            background-color: transparent;
+            box-shadow: initial;
+            position: relative;
         }
     }
 }
 
-@media screen and (min-width: 768px) {
-    .navbar-default {
-        .navbar-brand {
-            img {
-                left : 50px;
-                position: relative;
-            }
-        }
-    }
+.navbar {
+    border-radius: 0;
 }

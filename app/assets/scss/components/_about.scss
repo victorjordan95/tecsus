@@ -1,0 +1,42 @@
+.about {
+    @media screen and (min-width: 768px) {
+        position: relative;
+        top: -48px;
+    }
+    .about-title {
+        padding: 24px;
+        text-align: center;
+    }
+
+    .about-description {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .about-item { 
+        margin: 32px 0;
+        @media screen and (min-width: 768px) {
+            padding: 0 100px;
+        }
+        @media screen and (min-width: 1024px) {
+            padding: 0 24px;
+        }
+        .item-icon {
+            color: $primary;
+            font-size: 48px;
+            text-align: center;
+        }
+
+        .item-title {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .item-description {
+            text-align: center;
+        }
+
+    }
+
+
+}
