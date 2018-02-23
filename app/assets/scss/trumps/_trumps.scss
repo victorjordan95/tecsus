@@ -1,0 +1,23 @@
+.is-center {
+    text-align: center !important;
+}
+
+.is-hidden { 
+    display: none !important;
+}
+
+.mb-24 {
+    margin-bottom: 24px!important;
+}
+
+.top-48 {
+    top: 48px;
+}
+
+.deco-none {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

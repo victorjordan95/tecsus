@@ -1,0 +1,83 @@
+		<a id="gallery"></a>
+		<section class="gallery">
+			<div class="container">
+				<div id="main_area">
+					<div class="row">
+						<div class="col-xs-12">
+							<h3 class="subtitle text-center">Galeria de imagens</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 hidden-xs" id="slider-thumbs">
+						<ul class="hide-bullets">
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-0"> <img src="assets/img/galeria/16.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "> </a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-1"><img src="assets/img/galeria/2.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-2"><img src="assets/img/galeria/3.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-3"><img src="assets/img/galeria/4.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-4"><img src="assets/img/galeria/5.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-5"><img src="assets/img/galeria/6.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-6"><img src="assets/img/galeria/7.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra"></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-7"><img src="assets/img/galeria/8.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra"></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-8"><img src="assets/img/galeria/9.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra"></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-9"><img src="assets/img/galeria/10.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-10"><img src="assets/img/galeria/11.jpeg" alt=" engenharia civil são jose dos campos "></a>
+							</li>
+							<li class="col-sm-3">
+								<a class="thumbnail" id="carousel-selector-11"><img src="assets/img/galeria/12.jpeg" alt=" engenharia civil são jose dos campos " title="Engenharia civil ArkTerra " alt="engenharia civil são jose dos campos " title="Engenharia civil ArkTerra "></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="col-xs-12" id="slider">
+							<!-- Top part of the slider -->
+							<div class="row">
+								<div class="col-sm-12" id="carousel-bounding-box">
+									<div class="carousel slide" id="myCarousel2">
+										<!-- Carousel items -->
+										<div class="carousel-inner">
+											<div class="active item" data-slide-number="0"> <img src="assets/img/galeria/16.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="1"> <img src="assets/img/galeria/2.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="2"> <img src="assets/img/galeria/3.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="3"> <img src="assets/img/galeria/4.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="4"> <img src="assets/img/galeria/5.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="5"> <img src="assets/img/galeria/6.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="6"> <img src="assets/img/galeria/7.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="7"> <img src="assets/img/galeria/8.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="8"> <img src="assets/img/galeria/9.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="9"> <img src="assets/img/galeria/10.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="10"> <img src="assets/img/galeria/11.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+											<div class="item" data-slide-number="11"> <img src="assets/img/galeria/12.jpeg" alt="engenharia civil são jose dos campos" title="Engenharia civil ArkTerra"></div>
+										</div>
+										<!-- Carousel nav -->
+										<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+										<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/Slider-->
+				</div>
+			</div>
+			</div>
+		</section>
