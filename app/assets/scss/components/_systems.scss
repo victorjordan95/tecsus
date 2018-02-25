@@ -1,0 +1,91 @@
+.systems {
+    background-color: #fafafa;
+    border-bottom: 3px solid $primary;
+
+    .system-card {
+        box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.5);
+        border: 1px;
+
+        .system-card--header {
+            background-color: #fff;
+            padding: 24px 24px 8px;
+            
+        }
+
+        &.hydro {
+            border-top: 8px solid $blue;
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            top: 24px;
+            transition: all ease 0.8s;
+            &:hover {
+                box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.5);
+            }
+        }
+
+        &.lux {
+            border-top: 8px solid $yellow;
+            border-radius: 4px 4px 0 0;
+            transition: all ease 0.8s;
+            &:hover {
+                box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.5);
+            }
+        }
+
+        &.gas {
+            border-top: 8px solid $red;
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            top: 24px;
+            transition: all ease 0.8s;
+            &:hover {
+                box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.5);
+            }
+        }
+
+        .system-card--title {
+            font-weight: bold;
+            margin: 0 0 16px 0;
+            text-align: center;
+        }
+
+        .system-card--description {
+            color: #757575;
+            margin-bottom: 16px;
+        }
+
+        .system-card--options {
+            background-color: #FAFAFA;
+            color: #6c6b6b;
+            margin: 0;
+            text-align: center;
+            padding: 8px 0;
+            
+            .highlight {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            li {
+                font-size: 14px;
+                padding: 8px 24px;
+                list-style: none;
+            }
+
+        }
+
+        .system-card--footer {
+            background-color: #fff;
+            padding: 24px;
+
+            .btn-flat {
+                border: 1px solid $blue;
+                color: $blue;
+                &:hover {
+                    background-color: $primary;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

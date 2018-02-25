@@ -13,7 +13,7 @@
         border: transparent;
     }
     .icon-bar {
-        background-color: #fff;
+        background-color: $primary;
     }
 }
 
@@ -22,21 +22,39 @@
 }
 
 .header {
-    background-color: $navbar;
+    background-color: #fff;
+    border-top: 2px solid $primary;
     margin-bottom: 24px;
-    
+    z-index: 3;
     transition: all ease 0.5s;
+
     @media screen and (min-width: 768px) {
         background-color: transparent;
     }
-    &.active {
-        height: 50px;
+
+    .navbar-brand {
+        color: $primary;
         @media screen and (min-width: 768px) {
-            background-color: $navbar;
+            color: #fff;
         }
     }
-    .navbar-brand {
-        color: $text-white;
+
+    &.active {
+        border-bottom: 1px solid #FAFAFA;
+
+        @media screen and (min-width: 768px) {
+            background-color: #fff;
+            height: 50px;
+
+            li>a {
+                color: $primary;
+            }
+
+            .navbar-brand {
+                color: $primary;
+            }
+
+        }
     }
     .navbar-header {
         margin-top: 5px;

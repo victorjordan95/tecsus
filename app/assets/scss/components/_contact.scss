@@ -1,0 +1,64 @@
+.contact {
+    background: url('../img/map.png') no-repeat;
+    background-size: cover;
+    .section-title {
+        color: $primary;
+        font-weight: bold;
+        &::after {
+            content: "";
+            position: relative;
+            background: url('../img/heading-before.png') no-repeat 50%;
+            background-size: 3.375rem 1.125rem;
+            display: block;
+            width: 3.375rem;
+            height: 1.125rem;
+            margin-left: auto;
+            margin-right: auto;
+            clear: both;
+            top: .5rem;
+        }
+    }
+    .contact-info {
+        margin-bottom: 16px;
+        text-align: center;
+        .contact-info--icon {
+            color: $secundary;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        .contact-info--description {
+            font-size: 16px;
+        }
+    }
+    .contact-label {
+        color: #424242;
+    }
+    .contact-input {
+        height: 40px;
+        border: none;
+        box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08)
+    }
+    .contact-label--textarea {
+        border: none;
+        box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08)
+    }
+    .btn-flat {
+        background-color: $primary;
+        border-color: $primary;
+        color: $text-white;
+        &:hover{
+            background-color: darken( $primary, 5%);
+        }
+    }
+
+    .contact-form {
+        display: block;
+        margin: auto;
+        @media screen and (min-width: 768px) {
+            width: 50%;
+        }
+        @media screen and (min-width: 1024px) {
+            width: 40%;
+        }
+    }
+}

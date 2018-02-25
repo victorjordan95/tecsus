@@ -4,8 +4,22 @@
         top: -48px;
     }
     .about-title {
+        margin-bottom: 3.75rem;
         padding: 24px;
         text-align: center;
+        &::after {
+            content: "";
+            position: relative;
+            background: url('../img/heading-before.png') no-repeat 50%;
+            background-size: 3.375rem 1.125rem;
+            display: block;
+            width: 3.375rem;
+            height: 1.125rem;
+            margin-left: auto;
+            margin-right: auto;
+            clear: both;
+            top: .5rem;
+        }
     }
 
     .about-description {

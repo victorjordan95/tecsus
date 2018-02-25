@@ -7,7 +7,6 @@
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	<!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="lib/owl.carousel.min.css">
 	<link rel="stylesheet" href="lib/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -22,7 +21,7 @@
 
 <body>
 	<svg style="position: absolute; width: 0; height: 0; overflow: hidden; display:none" version="1.1" xmlns="http://www.w3.org/2000/svg"
-	    xmlns:xlink="http://www.w3.org/1999/xlink">
+	 xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<symbol id="icon-arrow-left" viewBox="0 0 32 32">
 				<title>arrow Left</title>
@@ -44,7 +43,7 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-				    aria-expanded="false">
+				 aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -72,10 +71,10 @@
 		</div>
 	</nav>
 
-	<header class="container-fluid">
+	<header class="container-fluid header-app">
 		<div class="row">
-			<div class="col-xs-12 header-banner">
-				<h1 class="header-title text-center">
+			<div class="col-xs-12 col-md-8 header-banner">
+				<h1 class="header-title">
 					TecSUS
 				</h1>
 				<h2 class="text-center header-subtitle">Innovativ with great innovtion</h2>
@@ -85,6 +84,11 @@
 				</p>
 
 				<a href="" class="btn btn-flat">Learn more</a>
+			</div>
+			<div class="col-md-4 hidden-xs hidden-sm">
+				<figure>
+					<img src="assets/img/phone-example.png" class="header-phone" alt="">
+				</figure>
 			</div>
 		</div>
 	</header>
@@ -141,7 +145,7 @@
 				<div class="col-xs-12">
 					<h2 class="about-title">Fazemos coisas <span class="h2 bold highlight">incríveis</span></h2>
 					<p class="about-description">
- 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
 					</p>
 				</div>
 			</div>
@@ -182,32 +186,93 @@
 			</div>
 		</section>
 
-		<section class="container-fluid systems">
+		<section class="container-fluid section systems">
 			<div class="row">
-				<div class="col-xs-12"></div>
+				<div class="col-xs-12">
+					<h2 class="section-title">Como podemos <span class="h2 bold highlight">ajudar</span> você</h2>
+				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 margin-card">
+
+					<div class="system-card hydro">
+						<header class="system-card--header">
+							<h4 class="system-card--title">TecHydro</h4>
+							<p class="system-card--description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+							</p>
+						</header>
+
+						<ul class="system-card--options">
+							<li>Uso doméstico, comercial e industrial</li>
+							<li>Coleta de dados <span class="highlight">real-time</span></li>
+							<li>Detecção de vazamentos</li>
+							<li>Geração de alertas</li>
+						</ul>
+
+						<footer class="system-card--footer">
+							<button class="btn btn-flat">Saiba mais</button>
+						</footer>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4">
+					<div class="system-card lux">
+						<header class="system-card--header">
+							<h4 class="system-card--title">TecLux</h4>
+							<p class="system-card--description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+							</p>
+						</header>
+
+						<ul class="system-card--options">
+							<li>Uso doméstico, comercial e industrial</li>
+							<li>Coleta de dados <span class="highlight">real-time</span></li>
+							<li>Detecção de vazamentos</li>
+							<li>Geração de alertas</li>
+						</ul>
+
+						<footer class="system-card--footer">
+							<button class="btn btn-flat">Saiba mais</button>
+						</footer>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4">
+					<div class="system-card gas">
+						<header class="system-card--header">
+							<h4 class="system-card--title">TecGas</h4>
+							<p class="system-card--description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+							</p>
+						</header>
+
+						<ul class="system-card--options">
+							<li>Uso doméstico, comercial e industrial</li>
+							<li>Coleta de dados <span class="highlight">real-time</span></li>
+							<li>Detecção de vazamentos</li>
+							<li>Geração de alertas</li>
+						</ul>
+
+						<footer class="system-card--footer">
+							<button class="btn btn-flat">Saiba mais</button>
+						</footer>
+					</div>
+				</div>
+			</div>
+
 		</section>
 
-	</main>
-
-
-	<!-- <main>
-		<h1>
-			Tecnologias para a Sustentabilidade
-		</h1>
-		<p>
-			Na TecSUS, desenvolvemos tecnologias que ajudam na economia dos recursos escassos do planeta e aumentam a eficiência de processos e produtos.
-			E nós amamos o que fazemos.
-		</p>
-		<a id="client"></a>
-		<section class="container info">
+		<section class="container clients">
 			<div class="row">
-
 				<div class="col-xs-12">
-					<p class="subtitle">Clientes</p>
-					<p class="title">Alguns de nossos principais clientes</p>
-					<hr class="text-separator">
-
+					<h2 class="section-title">Clientes que já são <span class="h2 bold highlight">TecSUS</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
 					<div id="owl-clients" class="owl-carousel clients-carousel">
 						<div class="container client-img"> <img src="assets/img/clients/cliente-aproesp.jpg" alt="Logo cliente Aproesp"> </div>
 						<div class="container client-img"> <img src="assets/img/clients/cliente-centervale.jpg" alt="Logo cliente Center Vale Shopping"> </div>
@@ -222,14 +287,141 @@
 			</div>
 		</section>
 
+		<section class="container-fluid in-media">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="section-title">TecSUS na <span class="h2 bold highlight">mídia</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="owl-midia" class="owl-carousel clients-carousel">
+
+						<div class="container midia-news">
+							<figure>
+								<img src="assets/img/midia/especial-futuro-cidade.png" class="midia-image" alt="Especial futuro das cidades">
+								<figcaption class="midia-description">
+									"Especial futuro das Cidades: empresas trazem projetos para melhorar o dia a dia..."
+								</figcaption>
+							</figure>
+
+							<div class="middle">
+								<div class="text">
+									Matéria Especial Futuro das Cidades
+								</div>
+							</div>
+
+							<a href="http://g1.globo.com/sp/vale-do-paraiba-regiao/jornal-vanguarda/videos/t/edicoes/v/especial-futuro-das-cidades/4647286/"
+							 class="btn btn-flat">
+									Leia mais
+							</a>
+						</div>
+
+						<div class="container midia-news">
+							<figure>
+								<img src="assets/img/midia/vale-silicio-brasileiro.jpg" class="midia-image" alt="Vale silicio brasileiro">
+								<figcaption class="midia-description">
+									"Você consegue conferir em tempo real como está o consumo de água em sua casa. Dá até para saber, por exemplo, o quanto alguém
+									está gastando na hora do banho...
+								</figcaption>
+							</figure>
+
+							<div class="middle">
+								<div class="text">
+									Revista Locaweb - Vale do Silício Brasileiro
+								</div>
+							</div>
+
+							<a href="http://www.tecsus.com.br/site/static/img/locaweb58.pdf" class="btn btn-flat">Leia mais</a>
+						</div>
+
+						<div class="container midia-news">
+							<figure>
+								<img src="assets/img/midia/feira-parque-tecnologico.jpg" class="midia-image" alt="Logo cliente Prazzo">
+								<figcaption class="midia-description">
+									Para economizar água e energia, muita gente passou a ficar de olho nos hidrômetros e no relógio de energia
+								</figcaption>
+							</figure>
+
+							<div class="middle">
+								<div class="text">
+									Feira no Parque Tecnológico de São José traz inovações para o cotidiano.
+								</div>
+							</div>
+
+							<a href="http://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2015/10/feira-no-parque-tecnologico-de-sao-jose-traz-inovacoes-para-o-cotidiano.html"
+							 class="btn btn-flat">
+									Leia mais
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="container-fluid section contact">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="section-title">Entre em contato!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 contact-info">
+					<i class="fas fa-phone contact-info--icon"></i>
+					<p class="contact-info--description">+55 12 3945-1515</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 contact-info">
+					<i class="fas fa-map-marker-alt contact-info--icon"></i>
+					<p class="contact-info--description">
+						Est. Dr. Altino Bondensan, 500 Parque Tecnológico - Centro Empresarial I São José dos Campos, SP
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 contact-info">
+					<i class="far fa-envelope contact-info--icon"></i>
+					<p class="contact-info--description">contato@tecsus.com.br</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+
+					<form action="" class="contact-form">
+
+						<div class="form-group">
+							<label class="contact-label">Nome</label>
+							<input type="text" placeholder="Seu nome" class="contact-input form-control" id="name">
+						</div>
+
+						<div class="form-group">
+							<label class="contact-label">E-mail</label>
+							<input type="text" placeholder="Seu e-mail" class="contact-input form-control" id="name">
+						</div>
+
+						<div class="form-group">
+							<label class="contact-label">Mensagem</label>
+							<textarea placeholder="Sua mensagem" class="contact-input--textarea form-control" rows="5" id="comment"></textarea>
+						</div>
+
+						<button class="btn btn-flat">Enviar</button>
+
+
+					</form>
+
+				</div>
+			</div>
+		</section>
+
 	</main>
 
 	<footer class="footer">
-		<p class="name">Arkterra Construtora & Terraplanagem</p>
+		<div class="social-media">
+			<a href="https://www.facebook.com/tecsusbr" class="social-media--link"><i class="fab fa-facebook-square social-media--icon"></i></a>
+			<a href="https://twitter.com/tecsusbr" class="social-media--link"><i class="fab fa-twitter-square social-media--icon"></i></a>
+			<a href="http://www.linkedin.com/company-beta/3063821" class="social-media--link"><i class="fab fa-linkedin social-media--icon"></i></a>
+		</div>
+		<p class="name">Copyright © www.tecsus.com.br 2017 </p>
 		<p class="developed">Desenvolvido por <a href="https://victorjordan95.github.io">Victor Jordan</a></p>
-	</footer> -->
-
-
+	</footer>
 
 	<!-- JSfiles -->
 	<script src="js/jquery.min.js"></script>
