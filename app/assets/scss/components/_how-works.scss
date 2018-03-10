@@ -1,0 +1,43 @@
+.how-works {
+    padding: 24px 24px 0;
+    .works-steps {
+        padding: 8px 0 16px;
+
+        &::after {
+            border-top: 1px solid #EEEEEE;
+            margin: 16px auto;
+            width: 90%;
+        }
+    }
+    &.techydro {
+        //background-color: $primary;
+    }
+    .section-title {
+        color : #424242;
+    }
+    .works-img {
+        display: block;
+        margin: auto;
+        width: 80px;
+        @media screen and (min-width: 768px) {
+            transform: translateY(25%);
+            width: 130px;
+        }
+    }
+    .works-title {
+        color: #212121;
+        margin: 0 0 16px;
+    }
+
+    .works-subtitle {
+        color: #BDBDBD;
+        margin: 16px 0 0;
+    }
+
+    .works-description {
+        margin-bottom: 16px;
+        @media screen and (min-width: 768px) {
+            margin: 0 0 32px;
+        }
+    }
+}

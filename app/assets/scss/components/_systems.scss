@@ -5,6 +5,7 @@
     .system-card {
         box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.5);
         border: 1px;
+        margin-top: 10px;
 
         .system-card--header {
             background-color: #fff;
@@ -35,7 +36,6 @@
             border-top: 8px solid $red;
             border-radius: 4px 4px 0 0;
             position: relative;
-            top: 24px;
             @media screen and (min-width: 768px) {
                 top: 0;
             }
@@ -78,6 +78,7 @@
 
         .system-card--footer {
             background-color: #fff;
+            margin-bottom: 16px;
             padding: 24px;
 
             .btn-flat {

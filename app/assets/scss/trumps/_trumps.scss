@@ -2,12 +2,12 @@
     text-align: center !important;
 }
 
-.is-hidden { 
+.is-hidden {
     display: none !important;
 }
 
 .mb-24 {
-    margin-bottom: 24px!important;
+    margin-bottom: 24px !important;
 }
 
 .top-48 {
@@ -16,20 +16,36 @@
 
 .deco-none {
     text-decoration: none;
-
     &:hover {
         text-decoration: none;
     }
 }
 
 .highlight {
-    color : $secundary;
+    color: $secundary;
 }
 
 .bold {
+    font-family: $font-bold;
     font-weight: bold;
 }
 
 .margin-card {
     margin-bottom: 24px;
+}
+
+.font-blue {
+    color: $blue;
+}
+
+.font-red {
+    color: $red;
+}
+
+.font-yellow {
+    color: $yellow;
+}
+
+.animate {
+    transition: all 0.5s ease;
 }

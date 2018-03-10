@@ -15,11 +15,13 @@
         }
 
         .social-media--icon {
-            color: $text-white;
-            font-size: 24px;
-            transition: color ease 0.5s;
+            fill: #fff;
+            height: 24px;
+            transition: fill ease 0.5s;
+            width: 24px;
+            will-change: fill;
             &:hover {
-                color: $secundary;
+                fill: $secundary;
             }
         }
     }
