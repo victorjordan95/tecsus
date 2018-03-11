@@ -1,10 +1,11 @@
 .how-works {
+    background-color: $blue;
     padding: 24px 24px 0;
     .works-steps {
         padding: 8px 0 16px;
 
-        &::after {
-            border-top: 1px solid #EEEEEE;
+        &:not(:last-child):after {
+            border-top: 2px solid rgba(238, 238, 238, 0.3);
             margin: 16px auto;
             width: 90%;
         }
@@ -13,19 +14,20 @@
         //background-color: $primary;
     }
     .section-title {
-        color : #424242;
+        color : #f5f5f5;
     }
     .works-img {
         display: block;
         margin: auto;
         width: 80px;
         @media screen and (min-width: 768px) {
-            transform: translateY(25%);
+            float: right;
+            margin-right: 48px;
             width: 130px;
         }
     }
     .works-title {
-        color: #212121;
+        color: #f5f5f5;
         margin: 0 0 16px;
     }
 
@@ -35,9 +37,11 @@
     }
 
     .works-description {
+        color : #f5f5f5;
         margin-bottom: 16px;
+        word-wrap: break-word;
         @media screen and (min-width: 768px) {
-            margin: 0 0 32px;
+            margin-bottom: 32px;
         }
     }
 }

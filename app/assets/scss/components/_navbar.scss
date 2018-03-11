@@ -42,12 +42,16 @@
         }
         .header-logo{
             position: relative;
-            width: 120px;
+            width: 50px;
             @media screen and (min-width: 768px) {
                 left: 30px;
             }
+            @media screen and (min-width: 1024px) {
+                width: 60px;
+            }
             @media screen and (min-width: 1440px) {
                 left: 80px;
+                width: 100px;
             }
         }
     }
@@ -58,7 +62,12 @@
 
         .navbar-brand {
             .header-logo{
-                width: 40px;
+                @media screen and (min-width: 768px) {
+                    width: 40px;
+                    
+                }
+                @media screen and (min-width: 1440px) {
+                }
             }
         }
 

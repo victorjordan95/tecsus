@@ -36,9 +36,13 @@
             padding: 0 24px;
         }
         .item-icon {
-            color: $primary;
-            font-size: 48px;
+            fill: $primary;
             text-align: center;
+
+            .icon {
+                height: 5em;
+                width: 5em;
+            }
         }
 
         .item-title {
