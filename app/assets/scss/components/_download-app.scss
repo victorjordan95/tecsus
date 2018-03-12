@@ -42,8 +42,12 @@
 
     .download-icon {
         align-self: center;
-        color: $text-white;
-        font-size: 42px;
+        .icon {
+            fill: $text-white;
+            height: 30px;
+            vertical-align: middle;
+            width: 30px;
+        }
     }
 
     .download-info {
